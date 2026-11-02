@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipVibe Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1b1b1f; --bg: #ffffff; --muted: #5d5e66; --accent: #2a5bd7; --rule: #e2e2ea; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e6e6ee; --bg: #121216; --muted: #a3a4ad; --accent: #8fb0ff; --rule: #2c2c34; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2rem; border-top: 1px solid var(--rule); padding-top: 1.2rem; }
+  .meta { color: var(--muted); margin: 0 0 1.5rem; } a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; } th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--rule); }
+</style>
+</head>
+<body>
+<main>
+<h1>ClipVibe Privacy Policy</h1>
+<p class="meta">Effective date: 3 November 2026 · App: ClipVibe (ali.alhadidi.clipvibe) · Publisher: Al-Hadidi Apps · Contact: <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a></p>
+
+<p>ClipVibe lets you discover, search, save and send short reaction clips with sound. The clips come from KLIPY, a third-party content service. This policy explains what information the app handles and who receives it. In short: <strong>ClipVibe has no account and does not ask for your name, e-mail address or phone number.</strong> To show clips, the app talks to KLIPY; to show ads, it uses Google AdMob; to find and fix crashes, it uses Firebase Crashlytics; and only if you turn notifications on, it uses Firebase Cloud Messaging. We, the publisher, do not run our own server for the app.</p>
+
+<h2>1. Clips, search and sharing (KLIPY)</h2>
+<p>ClipVibe gets its clips from the KLIPY API. When you use the app, it sends KLIPY:</p>
+<ul>
+  <li><strong>Your requests:</strong> which list you open (for example trending clips), the words you type in Search (including the suggestions shown as you type), and which page of results to load.</li>
+  <li><strong>A random app identifier.</strong> On first use, ClipVibe creates a random ID on your phone and sends it with KLIPY requests, as KLIPY's service requires. It is not linked to your name, e-mail address, phone number or advertising ID.</li>
+  <li><strong>Your settings that shape results:</strong> your device language and the content-safety level chosen in Settings (Strict by default).</li>
+  <li><strong>When you send a clip:</strong> the clip's ID and, if you found it by searching, your search words, so KLIPY can count the share.</li>
+  <li><strong>When you report a clip:</strong> the clip's ID and the reason you choose.</li>
+  <li><strong>For saved clips:</strong> the IDs of your saved clips, so the app can refresh their links and keep them playing.</li>
+</ul>
+<p>Clip videos and previews are streamed from KLIPY's servers, which, like any web server, receive your IP address and basic technical information about the request. ClipVibe does not keep a copy of the clips it plays. When you send a clip, the app downloads that one clip to its private temporary storage and hands it to the app you choose (for example a messaging app). That app's own privacy policy then applies. Temporary files are removed the next time ClipVibe starts after they are more than an hour old.</p>
+<p>KLIPY's privacy policy: <a href="https://klipy.com/support/privacy-policy">klipy.com/support/privacy-policy</a>.</p>
+
+<h2>2. Information kept on your phone</h2>
+<ul>
+  <li><strong>Saved clips</strong> and <strong>Recently sent</strong> (up to the last 40 clips): each entry holds the clip's ID, title, links to its video and preview, its size, and the time you saved or sent it.</li>
+  <li><strong>Recent searches</strong> (up to 8) and your <strong>preferences</strong>: theme, language, autoplay, content safety, notification choice, and the app you last sent a clip to.</li>
+</ul>
+<p>This information stays on your phone in ClipVibe's private storage and is not sent to us. The app opts out of Android's backup service. You can remove saved clips one by one, clear your search and send history with Settings → "Clear search and send history", and remove everything by uninstalling the app.</p>
+
+<h2>3. Advertising (Google AdMob)</h2>
+<p>ClipVibe is free and shows ads provided by Google AdMob. To show and measure ads and to prevent fraud, Google may collect your device's advertising ID, IP address, device and app information, and your interactions with ads. Where the law requires it (for example in the EEA and the UK), the app asks for your choice with Google's consent tool before ads are requested. Where such a choice applies, Settings shows "Privacy options" so you can review or change it at any time. You can also reset or delete your advertising ID in your Android settings. On Android versions that support it, Google's ads software may also use Android's own ad services (the Privacy Sandbox, for example ad topics and ad measurement), which you can manage in the ad privacy section of your Android settings.</p>
+<p>How Google uses this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+<h2>4. Crash reports (Firebase Crashlytics)</h2>
+<p>If ClipVibe crashes, or hits certain errors it can recover from, it sends a crash report to Google's Firebase Crashlytics so we can fix the problem. A report contains technical information such as the error and where in the app's code it happened, the app version, the device model, the Android version, the device's state at the time (for example free memory and orientation), and an installation identifier created by Firebase. ClipVibe does not add your search words, clip links or any personal identifier to these reports, and it removes error messages that could contain such details. We use crash reports only to find and fix bugs. Firebase keeps this data under its own retention rules: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+<p>ClipVibe does not include Google Analytics for Firebase or any other analytics service.</p>
+
+<h2>5. Notifications (optional, Firebase Cloud Messaging)</h2>
+<p>Notifications are off by default. Only if you turn them on in Settings does the app ask Android for permission (on Android 13 and later) and register with Firebase Cloud Messaging. Google then issues a notification token for your installation, and the app subscribes it to a general "updates" channel. We use this only to send occasional news about ClipVibe to everyone who opted in; we do not receive or store your token and cannot send you individual messages. If you turn notifications off in Settings, the app unsubscribes and deletes the token. Tapping a notification simply opens the app.</p>
+
+<h2>6. Ratings, contact and links</h2>
+<ul>
+  <li><strong>Ratings.</strong> From time to time, ClipVibe may ask Google Play to show its standard rating window. Google Play decides whether to show it, and the app is not told whether or how you rated it. "Rate ClipVibe" in Settings opens the app's Google Play page.</li>
+  <li><strong>E-mail.</strong> If you write to us at <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a>, we receive your e-mail address and whatever you write, and we use them only to reply to you. You can ask us to delete our correspondence with you at any time.</li>
+  <li><strong>Social links.</strong> The Facebook and Instagram links in Settings open those services, whose own privacy policies apply.</li>
+</ul>
+
+<h2>7. What ClipVibe does not do</h2>
+<ul>
+  <li>No account or sign-in.</li>
+  <li>No access to your location, contacts, photos, files, camera, microphone or messages. The only Android permissions are internet access and, if you turn notifications on, permission to show notifications.</li>
+  <li>We do not sell personal data.</li>
+</ul>
+
+<h2>8. Summary of data handled</h2>
+<table>
+  <tr><th>Data</th><th>Who receives it</th><th>Purpose</th></tr>
+  <tr><td>Search words, clip requests, random app ID, device language, content-safety setting, share and report events, IP address</td><td>KLIPY</td><td>Providing clips, search, share counts and content reports</td></tr>
+  <tr><td>Advertising ID, IP address, device info, ad interactions, consent choice</td><td>Google AdMob</td><td>Advertising, ad measurement, fraud prevention, consent</td></tr>
+  <tr><td>Crash reports with device and app details and a Firebase installation ID</td><td>Google Firebase Crashlytics</td><td>Finding and fixing crashes</td></tr>
+  <tr><td>Notification token, only if you turn notifications on</td><td>Google Firebase Cloud Messaging</td><td>Delivering opt-in announcements</td></tr>
+  <tr><td>Saved clips, recently sent, recent searches, preferences</td><td>No one (stays on your phone)</td><td>Running the app</td></tr>
+  <tr><td>Your e-mail address and message, only if you write to us</td><td>Us, by e-mail</td><td>Replying to you</td></tr>
+</table>
+<p>The app's network connections to these services use encryption in transit (HTTPS).</p>
+
+<h2>9. Retention and deletion</h2>
+<ul>
+  <li>Data on your phone: delete it as described in section 2, or by uninstalling the app.</li>
+  <li>Data received by KLIPY and Google is kept and deleted under their own policies (sections 1 and 3 to 5). We cannot access or delete it for you. You can reset your advertising ID, change your ad choices, and turn notifications off on your device.</li>
+  <li>E-mails you send us: ask us at any time to delete them.</li>
+</ul>
+
+<h2>10. Children</h2>
+<p>ClipVibe is a general-audience app and is not directed at children. It does not ask anyone, including children, for personal information, and we do not knowingly collect personal information from children. If you believe a child has sent us personal information, for example by e-mail, contact us and we will delete it.</p>
+
+<h2>11. Your rights</h2>
+<p>Depending on where you live (for example under the GDPR in the EEA and UK, or US state privacy laws), you may have the right to access, correct or delete personal data and to object to or restrict processing. Contact us at alhadidi.apps@gmail.com to use these rights. We hold no personal data from the app ourselves; data used for clips, ads, crash reports and notifications is held by the services described above. Where an ad-consent choice applies, you can change it at any time in Settings → "Privacy options".</p>
+
+<h2>12. Contact</h2>
+<p>Al-Hadidi Apps, e-mail: <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a>.<br>Facebook: <a href="https://www.facebook.com/al.hadidi.apps">facebook.com/al.hadidi.apps</a> · Instagram: <a href="https://www.instagram.com/al.hadidi.apps">instagram.com/al.hadidi.apps</a></p>
+<p>Third-party policies: <a href="https://klipy.com/support/privacy-policy">KLIPY</a> · <a href="https://policies.google.com/privacy">Google</a> · <a href="https://firebase.google.com/support/privacy">Firebase</a></p>
+
+<h2>13. This policy in the app</h2>
+<p>You can open this policy from the app at Settings → "Privacy policy".</p>
+
+<h2>14. Changes</h2>
+<p>If this policy changes, we will update the effective date above and publish the new version at this address.</p>
+</main>
+</body>
+</html>
