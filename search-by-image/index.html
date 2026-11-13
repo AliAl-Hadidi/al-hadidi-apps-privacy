@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search by Image Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1b1b1f; --bg: #ffffff; --muted: #5d5e66; --accent: #2a5bd7; --rule: #e2e2ea; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e6e6ee; --bg: #121216; --muted: #a3a4ad; --accent: #8fb0ff; --rule: #2c2c34; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2rem; border-top: 1px solid var(--rule); padding-top: 1.2rem; }
+  .meta { color: var(--muted); margin: 0 0 1.5rem; } a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; } th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--rule); }
+</style>
+</head>
+<body>
+<main>
+<h1>Search by Image Privacy Policy</h1>
+<p class="meta">Effective date: 13 November 2026 · App: Search by Image (ali.alhadidi.search_by_image) · Publisher: Al-Hadidi Apps · Contact: <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a></p>
+
+<p>Search by Image lets you take or choose a photo and look for similar images with Google, Google Lens, Bing, Yandex and TinEye. This policy explains what information the app handles and who receives it. In short: <strong>Search by Image has no account and does not ask for your name, e-mail address or phone number.</strong> To search, the app uploads a reduced copy of your image to temporary cloud storage and gives its link to the search engines. A storage rule deletes uploaded images automatically <strong>after five days</strong>. The app uses Google AdMob for ads and Google Firebase for storage, analytics, crash reports and remote settings. We, the publisher, do not run our own server for the app.</p>
+
+<h2>1. Your image and how a search works</h2>
+<ol>
+<li><strong>You choose the image.</strong> You take a photo with the camera, pick one with Android's photo picker, or share one to the app from another app. The app only sees the image you choose.</li>
+<li><strong>Processing on your phone.</strong> Before anything is uploaded, the app crops and rotates the image as you set it, reduces it to at most about 1600 pixels on its longest side, and saves it as a new JPEG. This new file contains <strong>no EXIF metadata</strong>, so details such as GPS location, camera model and the time the photo was taken are not uploaded.</li>
+<li><strong>Temporary upload.</strong> The processed image is uploaded over HTTPS to Google Cloud Storage for Firebase, under a random file name (for example <code>gallery-v2-…jpg</code>) that contains no information about you or your device.</li>
+<li><strong>Search engines.</strong> The app creates a private link to the uploaded image and sends it to the search engines you use. Each engine downloads the image from that link to find matches, and the results are shown in the app.</li>
+</ol>
+
+<h2>2. How long uploaded images are kept</h2>
+<p>A storage rule applies to all uploaded images: each image becomes eligible for automatic deletion <strong>five days</strong> after upload. Google's storage service carries out the deletion afterwards, so it may not happen at the exact five-day mark. Deleted images are not kept in a recoverable “soft delete” state.</p>
+<p>The images are stored in our Firebase project, hosted by Google. As the project owner, we have technical access to that storage, as does Google as our service provider. We use uploaded images only to provide your search and, when necessary, to keep the service working and secure (for example, investigating abuse or technical faults) or to comply with the law. We do not link uploaded images to you, to your device, or to any other data the app collects.</p>
+<p>Until the image is deleted, anyone who has its link can open it. The link is long and random and is given only to the search engines, and to anyone you share a results link with (see section 3).</p>
+<p>Copies that a search engine downloads are handled by that engine under its own policy (section 3), not by the five-day rule.</p>
+
+<h2>3. Search engines (third parties)</h2>
+<p>Search results come from these independent services: Google Search and Google Lens (Google), Bing (Microsoft), Yandex and TinEye. When you search, each engine you open receives:</p>
+<ul>
+<li>the link to your uploaded image, and downloads the image from it;</li>
+<li>your Safe Search setting (High by default) and, if you choose one, a website to limit results to (for example facebook.com, x.com or instagram.com);</li>
+<li>as with any website, your IP address and technical information about your device and browser.</li>
+</ul>
+<p>Results pages open inside the app in Android's built-in browser component (WebView), or in your browser if you tap "Open in browser". These pages are the search engines' own websites: they may set cookies and use their own analytics or ads, and their privacy policies apply. "Copy link" and "Share" copy or send the results link, which contains your image link, so anyone who receives it can open the image until it is deleted. If you choose to save an image shown in the results, Android's download manager downloads it from its website to your phone's Pictures folder.</p>
+<p>Privacy policies: <a href="https://policies.google.com/privacy">Google</a> · <a href="https://privacy.microsoft.com/privacystatement">Microsoft (Bing)</a> · <a href="https://yandex.com/legal/confidential/">Yandex</a> · <a href="https://tineye.com/privacy">TinEye</a>.</p>
+
+<h2>4. On-device tools</h2>
+<p>The Tools section offers text recognition, QR and barcode scanning, and image information. These run <strong>entirely on your phone</strong> using Google ML Kit models built into the app. The images and the text or codes found are not uploaded or sent to us.</p>
+
+<h2>5. Information kept on your phone</h2>
+<ul>
+<li><strong>Search history and favourites</strong> (on by default, up to 100 searches): the processed image, a thumbnail, the date, and which engines and options you used. You can turn history off, delete single items, or clear history in the History tab or in Settings ("Clear history" keeps favourites unless you remove them).</li>
+<li><strong>Preferences</strong>, such as Safe Search, engine order and history on or off, and small counters that limit how often ads, rating requests and our other apps' suggestions appear.</li>
+</ul>
+<p>Search history is excluded from Android backup and device transfer. Preferences may be included in your own Android backup. Uninstalling the app deletes all of this.</p>
+
+<h2>6. Advertising (Google AdMob)</h2>
+<p>Search by Image is free and shows ads provided by Google AdMob (banner, full-screen and app-open ads). To show and measure ads and to prevent fraud, Google may collect your device's advertising ID, IP address, device and app information, and your interactions with ads. Where the law requires it (for example in the EEA, the UK and Switzerland), the app asks for your choice with Google's consent tool before ads are requested, and Settings shows “Privacy &amp; ad choices” so you can review or change it at any time. You can also reset or delete your advertising ID in your Android settings. On Android versions that support it, Google's ads software may also use Android's own ad services (the Privacy Sandbox), which you can manage in the ad privacy section of your Android settings.</p>
+<p>How Google uses this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+<h2>7. Analytics, crash reports and remote settings (Firebase)</h2>
+<ul>
+<li><strong>Google Analytics for Firebase (optional).</strong> When Analytics is on, the app records usage events, such as which screens, engines, tools and buttons are used, whether an upload succeeded, its size and how long it took, whether an image shown in the image-information tool had a GPS tag (yes or no only, never the location), which of our other apps you tap, and ad and consent events. Analytics also collects an app-instance identifier, device model, Android version, app version, approximate location derived from your IP address, and a country code that the app reads from your mobile network, SIM card or device language. <strong>The app never sends your images, image links, file names, or text found by the tools to Analytics.</strong> We use this data only in aggregate, to improve the app and fix problems.</li>
+<li><strong>Your choice.</strong> Analytics is off when the app starts for the first time. In the European Economic Area, the UK and Switzerland, it stays off unless you tap “Allow” when the app asks; if you tap “Don’t allow”, it stays off and the app does not ask again. Elsewhere, Analytics is turned on once the app has checked that consent is not required for your region. Wherever you are, you can turn it on or off at any time in Settings → “Usage statistics”. Your ad-consent choice (section 6) is separate and never turns Analytics on.</li>
+<li><strong>Firebase Crashlytics.</strong> Crash reports are sent whatever your Usage statistics choice, because we need them to keep the app working (our legitimate interest in providing a stable service). If the app crashes or an upload fails, a technical report is sent with the error, app version, device model, Android version, the country code above, upload timing, and a Firebase installation identifier.</li>
+<li><strong>Firebase Remote Config.</strong> The app downloads settings from Firebase (for example, ad frequency and upload size), which involves a Firebase installation identifier.</li>
+</ul>
+<p>Firebase keeps this data under its own rules: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>8. Google Play features and links</h2>
+<ul>
+<li><strong>Ratings and updates.</strong> The app may ask Google Play to show its standard rating window or an update prompt. Google Play decides what to show, and the app is not told whether or how you rated it.</li>
+<li><strong>Our other apps.</strong> The app may suggest our other apps. Tapping one opens it, or its Google Play page. No data is sent to us.</li>
+<li><strong>E-mail.</strong> If you write to us at <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a>, we receive your e-mail address and message and use them only to reply. You can ask us to delete our correspondence at any time.</li>
+</ul>
+
+<h2>9. Permissions and what the app does not do</h2>
+<ul>
+<li>Permissions: internet access, the camera (only when you choose to take a photo), and the advertising ID.</li>
+<li>No account or sign-in. No access to your contacts, messages, microphone or precise location. Photos are accessed only when you pick or share one.</li>
+<li>We do not sell personal data.</li>
+</ul>
+
+<h2>10. Summary of data handled</h2>
+<table>
+<tr><th>Data</th><th>Who receives it</th><th>Purpose</th><th>Kept</th></tr>
+<tr><td>Processed image (reduced, no EXIF)</td><td>Google Cloud Storage for Firebase</td><td>Making the image available to search engines</td><td>Eligible for automatic deletion after 5 days</td></tr>
+<tr><td>Image link and the image, Safe Search and site options, IP address, browser data and cookies</td><td>Google, Google Lens, Bing, Yandex, TinEye</td><td>Reverse image search results</td><td>Under each engine's policy</td></tr>
+<tr><td>Advertising ID, IP address, device info, ad interactions, consent choice</td><td>Google AdMob</td><td>Advertising, measurement, fraud prevention, consent</td><td>Under Google's policy</td></tr>
+<tr><td>Usage events, app-instance ID, device info, country code (only while Usage statistics is on)</td><td>Google Analytics for Firebase</td><td>Improving the app</td><td>Under Firebase's policy</td></tr>
+<tr><td>Crash and error reports, installation ID</td><td>Firebase Crashlytics</td><td>Fixing crashes</td><td>Under Firebase's policy</td></tr>
+<tr><td>History, favourites, preferences; tool results</td><td>No one (stays on your phone)</td><td>Running the app</td><td>Until you delete it or uninstall</td></tr>
+<tr><td>Your e-mail address and message, only if you write to us</td><td>Us, by e-mail</td><td>Replying to you</td><td>Until you ask us to delete it</td></tr>
+</table>
+<p>All network connections made by the app use encryption in transit (HTTPS).</p>
+
+<h2>11. Children</h2>
+<p>Search by Image is a general-audience app and is not directed at children. We do not knowingly collect personal information from children. If you believe a child has sent us personal information, contact us and we will delete it.</p>
+
+<h2>12. Your rights</h2>
+<p>Depending on where you live (for example under the GDPR in the EEA and UK, or US state privacy laws), you may have the right to access, correct or delete personal data and to object to or restrict processing. Contact us at alhadidi.apps@gmail.com. Because uploaded images have random names and are not linked to you, we usually cannot find a specific image; all uploads become eligible for automatic deletion after five days. Data held by the search engines and Google is managed under their own policies. You can turn Analytics on or off in Settings → “Usage statistics”, and, where an ad-consent choice applies, change it at any time in Settings → “Privacy &amp; ad choices”.</p>
+
+<h2>13. Contact</h2>
+<p>Al-Hadidi Apps, e-mail: <a href="mailto:alhadidi.apps@gmail.com">alhadidi.apps@gmail.com</a>.<br>Facebook: <a href="https://www.facebook.com/al.hadidi.apps">facebook.com/al.hadidi.apps</a> · Instagram: <a href="https://www.instagram.com/al.hadidi.apps">instagram.com/al.hadidi.apps</a></p>
+
+<h2>14. This policy in the app</h2>
+<p>You can open this policy from the app at Settings → "Privacy policy".</p>
+
+<h2>15. Changes</h2>
+<p>If this policy changes, we will update the effective date above and publish the new version at this address.</p>
+</main>
+</body>
+</html>
